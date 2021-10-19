@@ -30,5 +30,7 @@ class Program
             TexTGen.WriteLine(writer),
             TexTGen.Indent(writer, -1)
             );
+        
+        Console.WriteLine(writer.ToString());
     }
 }
